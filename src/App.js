@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import { StripeProvider } from "@stripe/react-stripe-js";
+import AOS from "aos";
 
-function App() {
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Subscriptions from "./Components/Subscriptions/Subscriptions";
+import Footer from "./Components/Footer/Footer";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "aos/dist/aos.css";
+import "./App.css";
+
+export default function App() {
+  useEffect(() => {
+    AOS.init();
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+{/*       <StripeProvider apiKey=""> */}
+        <Home />
+        <About />
+        <Subscriptions />
+        <Footer />
+{/*       </StripeProvider> */}
     </div>
   );
 }
-
-export default App;
