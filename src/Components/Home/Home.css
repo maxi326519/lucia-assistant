@@ -1,6 +1,45 @@
-.home{
+#home{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+}
 
-    color: white;
-    background-color: grey;
+.home__content{
+    flex-grow: 1;
+    position: relative;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__content h2{
+    font-size: 50px;
+    text-shadow: 0 0 10px 10px black;
+}
+
+.home__content h3{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.home__content button{
+    margin-bottom: 100px;
+}
+
+.home__img img{
+    width: 800px;
+    height: 500px;
+    background-color: #0001;
+}
+
+.home__wave {
+    height: 150px;
+    width: 100%;
+}
+
+.home__wave path{
+    width: 100%;
+    height: 20vh;
+    fill: #7391ff66;
 }

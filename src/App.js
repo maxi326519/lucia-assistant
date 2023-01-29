@@ -1,10 +1,11 @@
-import React, { useEffect } from "react";
-import { StripeProvider } from "@stripe/react-stripe-js";
+import React, { Suspense, useEffect } from "react";
 import AOS from "aos";
 
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
-import Subscriptions from "./Components/Subscriptions/Subscriptions";
+import Trust from "./Components/TrustSection/TrustSection";
+import Tools from "./Components/ToolsSection/ToolsSection";
+import Subscription from "./Components/SubscriptionSection/SubscriptionSection";
 import Footer from "./Components/Footer/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -18,12 +19,12 @@ export default function App() {
 
   return (
     <div className="App">
-{/*       <StripeProvider apiKey=""> */}
         <Home />
+        <Trust/>
         <About />
-        <Subscriptions />
+        <Tools/>
+        <Subscription/>
         <Footer />
-{/*       </StripeProvider> */}
     </div>
   );
 }

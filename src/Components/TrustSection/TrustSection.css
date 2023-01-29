@@ -1,0 +1,41 @@
+.trust__container{
+    display: flex;
+    flex-direction: column;
+    background-color: #7391ff66;
+}
+
+.trust__text{
+    text-align: center;
+}
+
+.trust__text h3{
+    font-size: 40px;
+}
+
+.trust__container .home__wave path{
+    fill: white;
+}
+
+.porcentajes-container{
+    display: flex;
+    justify-content: center;
+}
+
+.procentajes{
+    margin: 20px;
+}
+
+.procentajes h5{
+    margin: 0;
+}
+
+.procentajes span{
+    line-height: 90%;
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--terciary-color);
+}
+
+.trust__bottom-text{
+    margin: 20px 0 0 0;
+}
