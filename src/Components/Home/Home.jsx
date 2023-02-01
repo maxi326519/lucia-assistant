@@ -1,5 +1,6 @@
 import Nav from "../Nav/Nav";
 
+import pc from "../../assets/img/edit-pc.png";
 import "./Home.css";
 
 export default function Home() {
@@ -7,25 +8,47 @@ export default function Home() {
     <div id="home">
       <Nav />
       <div className="home__content">
-        <div className="home__text"data-aos="fade-right">
-          <h2 className="fade-left" data-aos="fade-down" data-aos-delay="100">
+        <div className="home__text">
+          <h2
+            className="fade-left"
+            data-aos="fade-down"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
             Tu asistente personal
           </h2>
-          <h3 data-aos="fade-down">en la palma de tu mano</h3>
-          <p className="fade-right">
+          <h3
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            en la palma de tu mano
+          </h3>
+          <p
+            className="fade-right"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             Gestiona tus citas, clientes y recordatorios en un solo lugar
             <br></br>
             <b>¡OLVÍDATE DE LAS INASISTENCIAS!</b>
           </p>
-          <a href="#subscription" className="btn btn-primary" data-aos="fade-up">
+          <a
+            href="#subscription"
+            className="btn btn-primary"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
             Empieza ahora prueba Gratis
           </a>
         </div>
-        <div className="home__img" data-aos="fade-left">
-          <img
-            src="https://agendapro.com/web_assets/img/agendapro_home_w_pos_2.webp"
-            alt="home-img"
-          />
+        <div
+          className="home__img"
+          data-aos="fade-left"
+          data-aos-delay="200"
+          data-aos-duration="1200"
+        >
+          <img src={pc} alt="home-img" />
         </div>
       </div>
       <svg

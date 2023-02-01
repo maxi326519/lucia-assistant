@@ -39,3 +39,28 @@
 .trust__bottom-text{
     margin: 20px 0 0 0;
 }
+
+@media screen and (max-width: 720px){
+
+    .trust__text h3,
+    .trust__text p,
+    .porcentajes-container{
+        padding: 0 20px;
+    }
+
+    .trust__text h3{
+        font-size: 20px;
+    }
+    
+    .trust__text p{
+        font-size: 12px;
+    }
+
+    .procentajes{
+        margin: 0 20px;
+    }
+
+    .procentajes span{
+        font-size: 40px;
+    }    
+}

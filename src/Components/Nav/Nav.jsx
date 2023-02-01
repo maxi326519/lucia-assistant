@@ -19,7 +19,7 @@ export default function Nav() {
           data-aos-easing="ease"
         >
           <li className="nav-items">
-            <a href="#calendar">Calendario</a>
+            <a href="#about">Calendario</a>
           </li>
           <li className="nav-items">
             <a href="#tools">Herramientas</a>

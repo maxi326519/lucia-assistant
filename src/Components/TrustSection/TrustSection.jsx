@@ -12,7 +12,7 @@ export default function TrustSection() {
         <div className="porcentajes-container">
           <div
             className="procentajes"
-            data-aos="zoom-in-right"
+            data-aos="fade-up"
             data-aos-duration="1000"
           >
             <h5>Ingresos</h5>
@@ -20,7 +20,7 @@ export default function TrustSection() {
           </div>
           <div
             className="procentajes"
-            data-aos="zoom-in-left"
+            data-aos="fade-up"
             data-aos-duration="1000"
           >
             <h5>Inasistencias</h5>
