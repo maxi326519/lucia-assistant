@@ -20,11 +20,11 @@ export default function App() {
   return (
     <div className="App">
         <Home />
-{/*         <Trust/>
+        <Trust/>
         <About />
         <Tools/>
         <Subscription/>
-        <Footer /> */}
+        <Footer />
     </div>
   );
 }
