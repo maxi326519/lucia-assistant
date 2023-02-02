@@ -12,10 +12,6 @@
     font-size: 40px;
 }
 
-.trust__container .home__wave path{
-    fill: white;
-}
-
 .porcentajes-container{
     display: flex;
     justify-content: center;
