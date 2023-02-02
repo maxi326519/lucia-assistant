@@ -6,7 +6,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <div id="home">
-      <Nav />
+{/*       <Nav /> */}
       <div className="home__content">
         <div className="home__text">
           <h2
