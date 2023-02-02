@@ -48,7 +48,7 @@ export default function Home() {
           data-aos-delay="200"
           data-aos-duration="1200"
         >
-          <img src={pc} alt="home-img" />
+          <img src={pc} alt="home-img"/>
         </div>
       </div>
       <svg
