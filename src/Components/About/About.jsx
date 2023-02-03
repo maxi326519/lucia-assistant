@@ -1,5 +1,4 @@
 import phone from "../../assets/img/edit-phone.png";
-import pc from "../../assets/img/edit-pc.png";
 
 import "./About.css";
 

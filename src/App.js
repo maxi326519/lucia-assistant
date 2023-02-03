@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect } from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 
 import Home from "./Components/Home/Home";

@@ -1,4 +1,3 @@
-import logo from "../../assets/img/logo-lucia-vertical-2.png";
 import pc from "../../assets/img/edit-pc.png";
 import "./SubscriptionSection.css";
 
