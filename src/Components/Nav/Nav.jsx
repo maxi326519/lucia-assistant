@@ -25,7 +25,7 @@ export default function Nav() {
             <a href="#tools">Herramientas</a>
           </li>
           <li>
-            <a href="#subscription" className="btn btn-primary">
+            <a href="https://lucia-agenda.com/app/" className="btn btn-primary">
               Prueba gratis
             </a>
           </li>

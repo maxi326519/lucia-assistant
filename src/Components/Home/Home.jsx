@@ -15,25 +15,16 @@ export default function Home() {
             data-aos-delay="100"
             data-aos-duration="1000"
           >
-            Tu asistente personal
+            Obtén 7 días gratis
           </h2>
-          <h3
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
-            en la palma de tu mano
-          </h3>
-          <p
-            className="fade-right"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            Gestiona tus citas, clientes y recordatorios en un solo lugar
+          <p className="fade-right" data-aos="fade-up" data-aos-duration="1000">
+            El Mejor Software para tu Negocio, Clínica, Barbería, Salón, SPA o
+            Mas
             <br></br>
-            <b>¡OLVÍDATE DE LAS INASISTENCIAS!</b>
+            <b>Gestiona Citas, Clientes, Ventas y Pagos Online</b>
           </p>
           <a
-            href="#subscription"
+            href="https://lucia-agenda.com/app/"
             className="btn btn-primary"
             data-aos="fade-up"
             data-aos-delay="100"
@@ -48,7 +39,7 @@ export default function Home() {
           data-aos-delay="200"
           data-aos-duration="1200"
         >
-          <img src={pc} alt="home-img"/>
+          <img src={pc} alt="home-img" />
         </div>
       </div>
       <svg

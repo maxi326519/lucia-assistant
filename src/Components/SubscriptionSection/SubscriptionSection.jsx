@@ -21,8 +21,9 @@ export default function SubscriptionSection() {
             data-aos-deplay="200"
             data-aos-duration="500"
           >
-            <button className="btn btn-primary">Agenda demo</button>
-            <a href="https://buy.stripe.com/28o9CW4R9btl1XO4gg" className="btn btn-primary">Prueba gratis</a>
+            <a href="https://lucia-agenda.com/app/" className="btn btn-primary">
+              Prueba gratis
+            </a>
           </div>
         </div>
         <div className="pc" data-aos="fade-left" data-aos-duration="1000">
